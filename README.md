@@ -25,9 +25,9 @@ This landing page is a simple project designed to practice Bootstrap components 
 8. [Contact](#contact)
 
 # Demo
-You can view a live demo of the project [here] (https://afubeangel.github.io/logistics-bootstrap-site/).
+You can view a live demo of the project [here](https://afubeangel.github.io/logistics-bootstrap-site/).
 
-![project-image] (https://github.com/AfubeAngel/logistics-bootstrap-site/assets/62173614/072a2cb9-80a1-4767-a386-57274ad1a8ff)
+![project-image](https://github.com/AfubeAngel/logistics-bootstrap-site/assets/62173614/072a2cb9-80a1-4767-a386-57274ad1a8ff)
 
 
 # Technologies Used
