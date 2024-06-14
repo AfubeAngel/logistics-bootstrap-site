@@ -27,7 +27,7 @@ This landing page is a simple project designed to practice Bootstrap components 
 # Demo
 You can view a live Githib pages-demo of the project [here](https://afubeangel.github.io/logistics-bootstrap-site/).
 
-![project-image](https://github.com/AfubeAngel/logistics-bootstrap-site/assets/62173614/774e63b6-4a1e-421a-8540-210809bb40d0)
+![project-DesktopImage](https://github.com/AfubeAngel/logistics-bootstrap-site/assets/62173614/774e63b6-4a1e-421a-8540-210809bb40d0)
 
 
 # Technologies Used
