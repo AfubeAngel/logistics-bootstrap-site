@@ -74,6 +74,10 @@
       @media screen and (max-width:1205px) {
         margin-right: 0px;
       }
+      @media screen and (min-width:768px) and (max-width:990px) {
+        margin-top: 60px;
+      }
+
     }
 
     .section1a-p {
@@ -91,14 +95,11 @@
 
     .position-relative-box {
             position: relative;
-            width: 540px; 
+            min-width: 345px; 
             height: 474px;
             margin-top: 57px;
             background-color: #4267B2;
             border-radius: 20px;
-        @media screen and (max-width:560px) {
-        width: 345px;
-      }
         }
 
         .top-left-box {
@@ -144,7 +145,7 @@
           }
         }
 
-        .section4 {
+        #section4 {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -153,17 +154,32 @@
         }
 
         .process-box {
-          width: 345px;
+          min-width: 345px;
           height: 345px;
-          background-color: #B3E3C7;
           margin: 40px 0 47px 0;
-
-          @media screen and (min-width:426px) and (max-width: 991px) {
-            width: 700px;
-          }
+          padding: 36px;
+          position: relative;
+          border-radius: 10px;
         }
 
-        .section5 {
+        .process-iconbox {
+          width: 81px;
+          height: 81px;
+          border-radius: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .process-content {
+          display: flex; 
+          flex-direction: column; 
+          gap: 32px; 
+          position: absolute; 
+          top: 97px;
+        }
+
+        #section5 {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -240,6 +256,14 @@
           --bs-gutter-x: 14rem;
         }
 
+        .footer-col {
+          padding: 0px 100px;
+          width: 100%;
+          @media screen and (max-width:769px) {
+            padding: 0px 20px;
+          }
+        }
+
         .footer-text {
           color: #E6E6E6;
         }
@@ -264,7 +288,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#section5">Services</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -302,7 +326,7 @@
           </button>
         </div>
         <div class="col">
-          <div class="container section1b" style="padding-left: 0px;">
+          <div class="container section1b" style="padding-left: 0px; padding-right: 0px;">
             <div class="position-relative-box image-box">
               <img class="img-fluid" style="object-fit: contain;" src="assets/images/Saly-15.png" alt="sally">
                 <div class="top-left-box d-none d-xl-block img-fluid"></div>
@@ -326,33 +350,39 @@
   <h1>The Process</h1>
   <p style="font-size: 16px;">We have created a seamless process that you can follow to receive your orders and the process is explained below.</p>
 
-  <div class="container">
-    <div class="row gx-5">
+  <div class="container" >
+    <div class="row ">
       <div class="col">
-       <div class="p-3 process-box" style="background-color: #accbc8;">
-        <img src="assets/images/1number1.png" alt="number 1">
-        <div>
+       <div class="process-box" style="background-color: #B3E3C7;">
+        <img style="position: absolute; right: 17px; top: -14px;" src="assets/images/1number1.png" alt="number 1">
+      <div class="process-content">
+        <div class="process-iconbox" style="background-color: #64D0C5;">
           <img src="assets/icons/Loginloginarrow.svg" alt="login arrow">
         </div>
-        <p>Sign up to receive your personal USA shipping address, where we can pick the items to ship to you.</p>
+        <p style="margin-right: 32px;">Sign up to receive your personal USA shipping address, where we can pick the items to ship to you.</p>
+      </div>
        </div>
       </div>
       <div class="col">
-        <div class="p-3 process-box">
-          <img src="assets/images/2number2.png" alt="number 2">
-          <div>
+        <div class="process-box" style="background-color: #d5dfed;">
+          <img style="position: absolute; right: 17px; top: -14px;" src="assets/images/2number2.png" alt="number 2">
+        <div class="process-content">
+          <div class="process-iconbox" style="background-color: #4267B2">
             <img src="assets/icons/Buy.svg" alt="cart icon">
           </div>
-          <p>Make your orders from your preferred online retail store and input your unique USA Shipping Address in the shipment. </p>
+          <p style="margin-right: 32px;">Make your orders from your preferred online retail store and input your unique USA Shipping Address in the shipment. </p>
+        </div>
         </div>
       </div>
       <div class="col">
-        <div class="p-3 process-box">
-          <img src="assets/images/3number3.png" alt="number 3">
-          <div>
+        <div class="process-box" style="background-color: #fad8d9;">
+          <img style="position: absolute; right: 17px; top: -14px;" src="assets/images/3number3.png" alt="number 3">
+        <div class="process-content">
+          <div class="process-iconbox" style="background-color: #F94D53;">
             <img src="assets/icons/Locationmap.svg" alt="location icon">
           </div>
-          <p>We track your shipments and we deliver them to you in West Africa.</p>
+          <p style="margin-right: 32px;">We track your shipments and we deliver them to you in West Africa.</p>
+        </div>
         </div>
       </div>
     </div>
@@ -369,7 +399,7 @@
 </div>
 
 <!-- section 4 -->
-<div class="section4" style="width: 100%;" >
+<div id="section4" style="width: 100%;" >
   <h1>What can you do with us?</h1>
 
   <!-- carousel -->
@@ -422,7 +452,7 @@
 </div>
 
 <!-- section 5 -->
-<div class="section5" style="width: 100%;">
+<div id="section5" style="width: 100%;">
   <h1 style="margin: 88px 0px;">Our Services</h1>
 
   <div class="card service-card" >
@@ -519,8 +549,8 @@
 
 <!-- footer -->
 <footer class="" >
-  <div class="row" >
-  <div class="col mb-3" style="padding: 0 100px;">
+  <div class="row" style="margin-right: 0px;" >
+  <div class="col mb-3 footer-col">
     <h5 class="footer-text">Company</h5>
     <ul class="nav flex-column" >
       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-text">Career</a></li>
@@ -530,7 +560,7 @@
     </ul>
   </div>
 
-  <div class="col mb-3" style="padding: 0 100px; width: 100%;">
+  <div class="col mb-3 footer-col">
     <h5 class="footer-text">Help & Support</h5>
     <ul class="nav flex-column">
       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-text">FAQ</a></li>
@@ -544,7 +574,7 @@
     </ul>
   </div>
 
-  <div class="col mb-3" style="padding: 0 100px;">
+  <div class="col mb-3 footer-col">
     <h5 class="footer-text">Social</h5>
     <ul class="nav flex-column">
       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-text">Contact us</a></li>
