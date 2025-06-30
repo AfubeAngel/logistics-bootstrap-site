@@ -52,7 +52,7 @@ Copy code
 cd logistics-bootstrap-site
 ```
 
-## Open index.html (Go live) in your browser to view the webpage.
+### Open index.html (Go live) in your browser to view the webpage.
 
 # Usage
 - To customize the content, edit the index.html file in the root directory.
@@ -84,8 +84,10 @@ simple-agency-webpage/
 1. [Bootstrap] (https://getbootstrap.com/)
 2. [Bootstrap template] (https://getbootstrap.com/docs/5.3/examples/footers/)
 3. [Figma open source design] (https://www.figma.com/community/file/1006775473218344336/logistics-landing-page)
-  Licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) by **Fortunate Adediwura** 
-  I have adapted and mildly modified the original design for this implementation.
+  
+Licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) by **Fortunate Adediwura** 
+
+I have adapted and mildly modified the original design for this implementation.
 
 # License
 
