@@ -84,6 +84,9 @@ simple-agency-webpage/
 1. [Bootstrap] (https://getbootstrap.com/)
 2. [Bootstrap template] (https://getbootstrap.com/docs/5.3/examples/footers/)
 3. [Figma open source design] (https://www.figma.com/community/file/1006775473218344336/logistics-landing-page)
+  Licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) by Fortunate Adediwura 
+  I have adapted and mildly modified the original design for this implementation.
+
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for more details.
